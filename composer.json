@@ -1,5 +1,21 @@
 {
-    "name": "mp-ecommerce-php",
+    "name": "mercadopago/mp-ecommerce-php",
     "type": "project",
-    "require": {}
+    "description": "demo",
+	
+	"repositories": [
+      {
+          "url": "git@github.com:otrodemo/mp-ecommerce-php.git",
+          "type": "git"
+      }
+    ], 
+    "authors": [
+        {
+            "name": "Juan Valdivia",
+            "email": "juan_valdivia@outlook.com"
+        }
+    ],
+    "require": {
+      "mercadopago/dx-php": "^2.2"
+    }
 }
