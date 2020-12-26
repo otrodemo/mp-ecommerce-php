@@ -14,7 +14,7 @@ Requisitos para realizar la integración:
 
 1. Realizar un fork de este proyecto. Considerando que tu usuario de GitHub es `username`, tendremos el repositorio https://github.com/username/mp-ecommerce-php
 2. Ingresar a tu cuenta de Heroku
-3. Crear una aplicación en Heroku para realizar el deploy de nuestro e-commerce. Nombrarla de la siguiente manera *username*-mp-commerce-php. Ejemplo:
+3. Crear una aplicación en Heroku para realizar el deploy de nuestro e-commerce. Nombrarla de la siguiente manera *username*-mp-ecommerce-php. Ejemplo:
 <div style="text-align: center;" >
 <img src="docs/step0.png" width=400 />
 </div>
