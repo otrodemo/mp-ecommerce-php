@@ -19,7 +19,7 @@
 	$preference->external_reference = "juan_valdivia@outlook.com";
 	
 	//$base_dir = "https://localhost/mp-ecommerce-php";
-	$base_dir = __DIR__;
+	$base_dir = ".";
 	
 	
 	// Configurar la URL de notificaciones
