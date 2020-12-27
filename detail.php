@@ -18,7 +18,8 @@
 	//$preference->collector_id = "677408439";
 	$preference->external_reference = "juan_valdivia@outlook.com";
 	
-	$base_dir = "https://localhost/mp-ecommerce-php";
+	//$base_dir = "https://localhost/mp-ecommerce-php";
+	$base_dir = __DIR__;
 	
 	
 	// Configurar la URL de notificaciones
