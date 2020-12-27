@@ -19,7 +19,7 @@
 	$preference->external_reference = "juan_valdivia@outlook.com";
 	
 	//$base_dir = "https://localhost/mp-ecommerce-php";
-	$base_dir = ".";
+	$base_dir = "https://otrodemo-mp-ecommerce-php.herokuapp.com";
 	
 	
 	// Configurar la URL de notificaciones
