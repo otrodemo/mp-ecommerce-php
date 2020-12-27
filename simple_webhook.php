@@ -1,10 +1,11 @@
 <?php
-if ( isset($_POST) ) { if (!empty($_POST) ) {
+if ( isset($_REQUEST) ) { if (!empty($_REQUEST) ) {
 	
-		if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+		//if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
 			
 			$fopen = fopen("request_log.txt","a+");
-			fwrite($fopen, var_export($_POST, true). "\n" .  date('Y-m-d H:i:s', time()).PHP_EOL . "\n\n" );
+			fwrite($fopen, var_export($_REQUEST, true). "\n" .  date('Y-m-d H:i:s', time()).PHP_EOL . "\n\n" );
 			fclose($fopen);
 			
 			//file_put_contents("post.log", file_get_contents("post.log")."\n\n". var_export($_GET, true));
@@ -29,7 +30,7 @@ if ( isset($_POST) ) { if (!empty($_POST) ) {
 		}//*/
 		
 		}
-		/*
+		//*
 		$request = file_get_contents('php://input');
 		$req_dump = print_r( $request, true );
 		$fp = file_put_contents( 'request.log', $req_dump );
