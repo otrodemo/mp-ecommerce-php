@@ -29,7 +29,7 @@ if ( isset($_REQUEST) ) { if (!empty($_REQUEST) ) {
 			trigger_error("Invalid request!");
 		}//*/
 		
-		}
+		//}
 		//*
 		$request = file_get_contents('php://input');
 		$req_dump = print_r( $request, true );
