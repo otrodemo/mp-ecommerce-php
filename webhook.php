@@ -11,10 +11,12 @@
   fwrite($myfile, $input);
 
   //Respuesta a MercadoPago
-  http_response_code(200);
-  $array = array(
-    "response" => "Webhook de MercadoPago recibido"
-  );
-  echo json_encode($array);));
+  if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+	  http_response_code(200);
+	  $array = array(
+		"response" => "Webhook de MercadoPago recibido"
+	  );
+	  echo json_encode($array);));
+  }
 ?>
 
